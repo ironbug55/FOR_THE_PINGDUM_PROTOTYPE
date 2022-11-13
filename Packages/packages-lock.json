@@ -1,5 +1,42 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b992a061fbf68ff1eb475d0837065b0549ed31ba"
+    },
+    "com.google.external-dependency-manager": {
+      "version": "file:../GooglePackages/com.google.external-dependency-manager-1.2.174.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {}
+    },
+    "com.google.firebase.app": {
+      "version": "file:../GooglePackages/com.google.firebase.app-9.6.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.172"
+      }
+    },
+    "com.google.firebase.auth": {
+      "version": "file:../GooglePackages/com.google.firebase.auth-9.6.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.app": "9.6.0"
+      }
+    },
+    "com.google.firebase.database": {
+      "version": "file:../GooglePackages/com.google.firebase.database-9.6.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.google.firebase.auth": "9.6.0"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.12",
       "depth": 0,
@@ -7,6 +44,13 @@
       "dependencies": {
         "com.unity.services.core": "1.0.1"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.device-simulator": {
+      "version": "3.0.3-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -121,14 +165,6 @@
       "source": "builtin",
       "dependencies": {}
     },
-    "com.unity.modules.cloth": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      }
-    },
     "com.unity.modules.director": {
       "version": "1.0.0",
       "depth": 0,
@@ -173,37 +209,6 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
-    },
-    "com.unity.modules.screencapture": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.imageconversion": "1.0.0"
-      }
-    },
-    "com.unity.modules.subsystems": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0"
-      }
-    },
-    "com.unity.modules.terrain": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.terrainphysics": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.terrain": "1.0.0"
-      }
     },
     "com.unity.modules.tilemap": {
       "version": "1.0.0",
@@ -301,14 +306,6 @@
         "com.unity.modules.imageconversion": "1.0.0"
       }
     },
-    "com.unity.modules.vehicles": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      }
-    },
     "com.unity.modules.video": {
       "version": "1.0.0",
       "depth": 0,
@@ -317,32 +314,6 @@
         "com.unity.modules.audio": "1.0.0",
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
-      }
-    },
-    "com.unity.modules.vr": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.xr": "1.0.0"
-      }
-    },
-    "com.unity.modules.wind": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.modules.xr": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.subsystems": "1.0.0"
       }
     }
   }

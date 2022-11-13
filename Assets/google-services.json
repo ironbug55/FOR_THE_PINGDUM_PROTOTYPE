@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "975931040552",
+    "firebase_url": "https://for-the-pingdum-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "for-the-pingdum",
+    "storage_bucket": "for-the-pingdum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975931040552:android:2dcf9ce64e629b5cd1661d",
+        "android_client_info": {
+          "package_name": "com.MelonmanGames.FOR_THE_PINGDUM"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975931040552-2lbm7d29l6fthn25gssi0csh074q1qed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9Ssfol3IRvLvapyDpPVUdyEdlJ2ZxxbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975931040552-2lbm7d29l6fthn25gssi0csh074q1qed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

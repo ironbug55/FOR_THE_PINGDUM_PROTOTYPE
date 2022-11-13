@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://for-the-pingdum-default-rtdb.europe-west1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">975931040552</string>
+  <string name="google_storage_bucket" translatable="false">for-the-pingdum.appspot.com</string>
+  <string name="project_id" translatable="false">for-the-pingdum</string>
+  <string name="google_api_key" translatable="false">AIzaSyA9Ssfol3IRvLvapyDpPVUdyEdlJ2ZxxbY</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA9Ssfol3IRvLvapyDpPVUdyEdlJ2ZxxbY</string>
+  <string name="google_app_id" translatable="false">1:975931040552:android:2dcf9ce64e629b5cd1661d</string>
+  <string name="default_web_client_id" translatable="false">975931040552-2lbm7d29l6fthn25gssi0csh074q1qed.apps.googleusercontent.com</string>
+</resources>
